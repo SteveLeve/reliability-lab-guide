@@ -1,0 +1,18 @@
+# Personal journal entries (you may want to keep these private)
+weekly-guides/journal/*-private.md
+# Or ignore the entire journal folder if preferred
+weekly-guides/journal/
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+
+# Environment files
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
