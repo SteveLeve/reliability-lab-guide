@@ -109,7 +109,7 @@ The custom instructions in this repo configure Claude to understand:
 ## 📖 Repository Structure
 
 ```
-reliability-lab-setup-guide/
+reliability-lab-guide/
 ├── README.md (this file)
 ├── docs/
 │   ├── setup-steps/          # Step-by-step setup
