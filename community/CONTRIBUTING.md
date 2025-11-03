@@ -1,4 +1,4 @@
-# Contributing to Reliability Lab Setup Guide
+# Contributing to Reliability Lab Guide
 
 Thank you for your interest in improving the Reliability Lab!
 
@@ -14,7 +14,7 @@ Thank you for your interest in improving the Reliability Lab!
 - Contribute tips to TIPS.md
 - Write about challenges you faced
 
-### 3. Enhance Setup Guide
+### 3. Enhance Guide
 - Improve setup steps
 - Add platform-specific instructions
 - Create helper scripts

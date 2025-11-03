@@ -1,4 +1,4 @@
-# Reliability Lab Setup Guide
+# Reliability Lab Guide
 
 **Your AI-assisted companion for mastering platform engineering**
 
@@ -10,7 +10,7 @@
 
 ## 🎯 What is This?
 
-This is the **setup guide and coaching companion** for the Reliability Lab. It helps you:
+This is the **Guide and coaching companion** for the Reliability Lab. It helps you:
 
 ✅ Configure Claude AI as your personal SRE mentor  
 ✅ Set up your development environment  
@@ -155,7 +155,7 @@ Skip Claude configuration and follow the guides independently. You'll still get:
 **Recommended pattern:**
 
 **Monday-Tuesday:** Study + Local Development
-- Read week's guide in setup-guide repo
+- Read week's guide in guide repo
 - Ask Claude to explain new concepts
 - Test locally with docker-compose
 
