@@ -6,12 +6,24 @@ Configure your AWS account and environment for the Reliability Lab.
 
 Recommended: Create a dedicated IAM user with AdministratorAccess for the lab. You can scope down later in Week 2.
 
-Steps:
+Create User Steps:
 1. Go to IAM → Users → Add users
 2. User name: `reliability-lab-admin`
-3. Access type: Programmatic access
-4. Attach policy: `AdministratorAccess` (temp for lab)
-5. Download credentials CSV
+3. Access type: Programmatic access (leave "Provide user access to the AWS Management Console" unchecked)
+4. Click next to Set Permissions
+5. Attach policy: `AdministratorAccess` (User Groups checkbox) 
+6. Click next to to "Review and create"
+7. Click "Create User"
+
+Download credentials CSV:
+1. Go to IAM → Users → reliability-lab-admin
+2. Click the "Security credentials" tab
+3. Scroll to "Access keys" section
+4. Click "Create access key"
+5. Select "Command Line Interface (CLI)" as the use case
+6. Check the confirmation box and click Next
+7. Click "Create access key"
+8. Now download the CSV or copy the keys before closing
 
 Store Access Key ID and Secret Access Key securely.
 

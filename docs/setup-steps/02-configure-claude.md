@@ -71,14 +71,14 @@ Add these files to give Claude context about your lab:
 Create this file with your repo structure:
 
 ```bash
-cat > /tmp/repository-structure.md << 'ENDFILE'
+cat > ./repository-structure.md << 'ENDFILE'
 # Repository Structure
 
 My Reliability Lab repository: https://github.com/SteveLeve/reliability-lab
 
 ## Directory Layout
 
-```
+\```
 reliability-lab/
 ├── services/sample-app/   # FastAPI application
 ├── deploy/                # K8s, Terraform, Compose
@@ -86,6 +86,15 @@ reliability-lab/
 ├── .github/workflows/     # CI/CD pipelines
 ├── ops/                   # Observability, security
 └── scripts/               # Automation
+\```
+
+## Current Status
+- Week: 1
+- Branch: main
+- Focus: Containerization and EKS deployment
+ENDFILE
+
+# Upload this file to Claude Project
 ```
 
 ## Current Status
